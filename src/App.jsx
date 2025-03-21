@@ -11,7 +11,7 @@ const API_URL = "https://task-mgnt-backend.vercel.app/tasks";
 function App() {
   const [tasks, setTasks] = useState([]);
   const [darkMode, setDarkMode] = useState(false);
-  const [showFeatures, setShowFeatures] = useState(true);
+  // const [showFeatures, setShowFeatures] = useState(true);
 
   // Fetch tasks from the backend
   useEffect(() => {
