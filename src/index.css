@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: white;
+}
